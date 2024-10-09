@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map with Coordinates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="map-container">
+        <!-- mark point 1 -->
+        <div class="skull-point" id="skull1" style="top: 2570px; left: 987px;" onclick="toggleSkull('skull1')">
+            <img id="skull-icon1" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull1" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 2 -->
+        <div class="skull-point" id="skull2" style="top: 2147px; left: 1032px;" onclick="toggleSkull('skull2')">
+            <img id="skull-icon2" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull2" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 3 -->
+        <div class="skull-point" id="skull3" style="top: 2270px; left: 663px;" onclick="toggleSkull('skull3')">
+            <img id="skull-icon3" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull3" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 4 -->
+        <div class="skull-point" id="skull4" style="top: 2293px; left: 773px;" onclick="toggleSkull('skull4')">
+            <img id="skull-icon4" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull4" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 5 -->
+        <div class="skull-point" id="skull5" style="top: 2020px; left: 1034px;" onclick="toggleSkull('skull5')">
+            <img id="skull-icon5" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull5" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 6 -->
+        <div class="skull-point" id="skull6" style="top: 1339px; left: 1366px;" onclick="toggleSkull('skull6')">
+            <img id="skull-icon6" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull6" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 7 -->
+        <div class="skull-point" id="skull7" style="top: 1000px; left: 1366px;" onclick="toggleSkull('skull7')">
+            <img id="skull-icon7" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull7" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 8 -->
+        <div class="skull-point" id="skull8" style="top: 1460px; left: 939px;" onclick="toggleSkull('skull8')">
+            <img id="skull-icon8" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull8" class="timer" style="display:none;"></p>
+        </div>
+        <!-- mark point 9 -->
+        <div class="skull-point" id="skull9" style="top: 2345px; left: 1100px;" onclick="toggleSkull('skull9')">
+            <img id="skull-icon9" src="green-skull.png" alt="green skull" class="skull-icon">
+            <p id="timer-skull9" class="timer" style="display:none;"></p>
+        </div>
+        
+        <!-- Coordinates Display -->
+        <div id="coordinates" style="position: fixed; bottom: 10px; left: 10px; color: white;"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

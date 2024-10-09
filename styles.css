@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black; /* Fills the sides with black */
+    overflow: hidden;
+}
+
+.map-container {
+    position: relative;
+    width: 100vw;
+    height: 350vh; /* Adjusted height for more vertical scrolling */
+    background: url('image.png') no-repeat center center;
+    background-size: contain; /* Ensure the entire image fits within the container */
+    background-color: black; /* Ensures any empty areas around the image are black */
+    transform-origin: center center; /* Keep the zoom centered */
+}
+
+/* Skull points are positioned absolutely on the map */
+.skull-point {
+    position: absolute;
+    cursor: pointer;
+}
+
+.skull-icon {
+    width: 50px;
+    height: auto;
+}
+
+/* Disable default zoom scaling */
+body {
+    zoom: 1; /* Default zoom level */
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.timer {
+    font-size: 20px;           /* Adjust the font size */
+    font-weight: bold;         /* Bold numbers */
+    color: white;                /* Timer text color */
+    text-shadow: 2px 2px 4px gray; /* White shadow for the outline effect */
+    margin-top: 5px;           /* Add space above the timer */
+    margin-left:-20px;
+}
